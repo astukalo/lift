@@ -1,0 +1,15 @@
+group 'xyz.a5s7'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'commons-cli', name: 'commons-cli', version: '1.2'
+    testCompile 'junit:junit:4.12'
+}
